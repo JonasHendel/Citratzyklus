@@ -1,0 +1,77 @@
+<motion.path
+							d='M434.92,264.18c23.7-1.18,68.98-3.67,109.19,7.31'
+							initial={{ opacity: 0 }}
+							animate={{ opacity: 1 }}
+							transition={{ duration: 1 }}
+							strokeWidth='5'
+							stroke={color}
+							onMouseOver={() => {
+								setHover(true);
+							}}
+							onMouseLeave={() => {
+								setHover(false);
+							}}
+						/>
+						<motion.path
+							d='M652.29,318.77c17.67,13.03,31.91,24.2,42.38,36.32'
+							initial={{ opacity: -1 }}
+							animate={{ opacity: 1 }}
+							transition={{ duration: 1 }}
+							strokeWidth='5'
+							stroke={color}
+						/>
+						<motion.path
+							d='M764.68,462.92c7,17.1,16.24,56.56,17.42,79.41'
+							initial={{ opacity: -2 }}
+							animate={{ opacity: 1 }}
+							transition={{ duration: 1 }}
+							strokeWidth='5'
+							stroke={color}
+						/>
+						<motion.path
+							d='M757.82,698.68c-9.43,20.66-20.78,44.31-36.88,62.63'
+							strokeWidth='5'
+							stroke={color}
+							initial={{ opacity: -3 }}
+							animate={{ opacity: 1 }}
+							transition={{ duration: 1 }}
+						/>
+						<motion.path
+							className='test'
+							d='M289.41,824.23c-42.07-28.72-76.19-81.98-76.19-81.98'
+							strokeWidth='5'
+							stroke={color}
+							initial={{ opacity: -4 }}
+							animate={{ opacity: 1 }}
+							transition={{ duration: 1 }}
+							onMouseOver={() => {
+								setHover(true);
+							}}
+							onMouseLeave={() => {
+								setHover(false);
+							}}
+						/>
+						<motion.path
+							d='M550.47,873.99c-0.64,0.35-0.2,0.41-0.92,0.56c-31.71,6.74-56.37,10.74-100.11,8.61'
+							strokeWidth='5'
+							stroke={color}
+							initial={{ opacity: -5 }}
+							animate={{ opacity: 1 }}
+							transition={{ duration: 1 }}
+						/>
+						<motion.path
+							d='M164.76,536.97c-3.34,19.03-3.65,34.31-1.37,55.74'
+							strokeWidth='5'
+							stroke={color}
+							initial={{ opacity: -6 }}
+							animate={{ opacity: 1 }}
+							transition={{ duration: 1 }}
+						/>
+						<motion.path
+							d='M226.97,385.49c26-40.79,73.66-74.3,73.66-74.3'
+							strokeWidth='5'
+							stroke={color}
+							initial={{ opacity: -7 }}
+							animate={{ opacity: 1 }}
+							transition={{ duration: 1 }}
+						/>
