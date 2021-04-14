@@ -51,6 +51,7 @@ export default function Home() {
 							transition={{ duration: 0.3 }}
 						>
 							<h1>{title}</h1>
+              <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation. "</p>
 						</motion.div>
 				)}
         {click && (
@@ -62,6 +63,7 @@ export default function Home() {
 							transition={{ duration: 0.3 }}
 						>
 							<h1>{title}</h1>
+              <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation. "</p>
 						</motion.div>
 				)}
 			</div>

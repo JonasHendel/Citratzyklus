@@ -41,7 +41,16 @@ a {
   height: 304px;
   background: black;
   border-radius: 10px;
+  padding: 20px;
   color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+
+}
+
+.card p {
+  padding-right: 70px;
 }
 
 .test {
