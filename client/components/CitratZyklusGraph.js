@@ -51,7 +51,7 @@ const CitratZyklusGraph = (props) => {
 					className='st13 st6 st10'
 					transform='matrix(1 0 0 1 444.2312 40.0868)'
 				>
-					C4
+					C2
 				</text>
 			</motion.g>
 			<motion.g
