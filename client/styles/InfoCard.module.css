@@ -1,0 +1,8 @@
+.heading {
+  margin: 0;
+}
+
+.substratProdukt {
+  display: flex;
+  justify-content: space-between;
+}

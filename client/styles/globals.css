@@ -34,11 +34,12 @@ a {
   top: 0;
   left: 0;
 }
+
 .card {
-  top: 350px;
-  left: 344px;
-  width: 310px;
-  height: 304px;
+  top: 300px;
+  left: 310px;
+  width: 380px;
+  height: 404px;
   background: black;
   border-radius: 10px;
   padding: 20px;
@@ -46,11 +47,10 @@ a {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
-
 }
 
 .card p {
-  padding-right: 70px;
+  padding-right: 0px;
 }
 
 .test {

@@ -1,8 +1,10 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 
+
 const CitratZyklusGraph = (props) => {
-	const showInfo = (title) => {
+  
+	const showInfoHover = (title) => {
 		props.setHover(true);
 		props.setTitle(title);
 	};
@@ -19,10 +21,10 @@ const CitratZyklusGraph = (props) => {
 				animate={{ opacity: 1 }}
 				transition={{ duration: 2 }}
 				onClick={() => {
-					showInfoClick('Acetzyl-CoA');
+					showInfoClick('Acetzyl-CoA', );
 				}}
 				onMouseOver={() => {
-					showInfo('Acetzyl-CoA');
+					showInfoHover('Acetzyl-CoA');
 				}}
 				onMouseLeave={() => props.setHover(false)}
 			>
@@ -62,7 +64,7 @@ const CitratZyklusGraph = (props) => {
 					showInfoClick('Citrat');
 				}}
 				onMouseOver={() => {
-					showInfo('Citrat');
+					showInfoHover('Citrat');
 				}}
 				onMouseLeave={() => props.setHover(false)}
 			>
@@ -102,7 +104,7 @@ const CitratZyklusGraph = (props) => {
 					showInfoClick('Isocitrat');
 				}}
 				onMouseOver={() => {
-					showInfo('Isocitrat');
+					showInfoHover('Isocitrat');
 				}}
 				onMouseLeave={() => props.setHover(false)}
 			>
@@ -142,7 +144,7 @@ const CitratZyklusGraph = (props) => {
 					showInfoClick('α-Ketoglutarat');
 				}}
 				onMouseOver={() => {
-					showInfo('α-Ketoglutarat');
+					showInfoHover('α-Ketoglutarat');
 				}}
 				onMouseLeave={() => props.setHover(false)}
 			>
@@ -171,7 +173,7 @@ const CitratZyklusGraph = (props) => {
 					className='st13 st6 st10'
 					transform='matrix(1 0 0 1 764.8969 609.8832)'
 				>
-					C4
+					C5
 				</text>
 			</motion.g>
 			<motion.g
@@ -182,7 +184,7 @@ const CitratZyklusGraph = (props) => {
 					showInfoClick('Succinly-CoA');
 				}}
 				onMouseOver={() => {
-					showInfo('Succinly-CoA');
+					showInfoHover('Succinly-CoA');
 				}}
 				onMouseLeave={() => props.setHover(false)}
 			>
@@ -222,7 +224,7 @@ const CitratZyklusGraph = (props) => {
 					showInfoClick('Succinat');
 				}}
 				onMouseOver={() => {
-					showInfo('Succinat');
+					showInfoHover('Succinat');
 				}}
 				onMouseLeave={() => props.setHover(false)}
 			>
@@ -262,7 +264,7 @@ const CitratZyklusGraph = (props) => {
 					showInfoClick('Fumarat');
 				}}
 				onMouseOver={() => {
-					showInfo('Fumarat');
+					showInfoHover('Fumarat');
 				}}
 				onMouseLeave={() => props.setHover(false)}
 			>
@@ -302,7 +304,7 @@ const CitratZyklusGraph = (props) => {
 					showInfoClick('Malat');
 				}}
 				onMouseOver={() => {
-					showInfo('Malat');
+					showInfoHover('Malat');
 				}}
 				onMouseLeave={() => props.setHover(false)}
 			>
@@ -342,7 +344,7 @@ const CitratZyklusGraph = (props) => {
 					showInfoClick('Oxalacetat');
 				}}
 				onMouseOver={() => {
-					showInfo('Oxalaextat');
+					showInfoHover('Oxalacetat');
 				}}
 				onMouseLeave={() => props.setHover(false)}
 			>
