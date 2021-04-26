@@ -10,29 +10,41 @@ import InfoCard from '../components/InfoCard'
 export default function Home() {
 	const color = 'black';
 	const [hover, setHover] = useState(false);
-  const [click, setClick] = useState(false)
-  const [show, setShow] = useState(false)
-  const [title, setTitle] = useState('Der Citrat Zyklus')
+  const [title, setTitle] = useState()
 
   const mDiv = useRef()
 
-  const handleClick = () => {
-    setClick(false)
-  }
-  
+  useEffect(() => {
+    /**
+     * Alert if clicked on outside of element
+     */
+    function handleClickOutside(event) {
+        if (mDiv.current) {
+            setTitle();
+        }
+    }
+    document.addEventListener("mousedown", handleClickOutside);
+    return () => {
+        // Unbind the event listener on clean up
+        document.removeEventListener("mousedown", handleClickOutside);
+    };
+}, [mDiv]);
+
+
 
 	return (
 		<>
 			<div className='container' ref={mDiv}>
-				<div className='svg'>
-					<CitratZyklusGraph hover={hover} setHover={setHover} setClick={setClick} setTitle={setTitle}/>
-				</div>
-				{hover && (
-						<InfoCard title={title}/>
-				)}
-        {click && (
-						<InfoCard title={title}/>
-				)}
+        <div className='textCard'>
+          <h1>Test</h1>
+          <p></p>
+        </div>
+        <div className='graphContainer'>
+          <div className='svg'>
+            <CitratZyklusGraph hover={hover} setHover={setHover} setTitle={setTitle}/>
+          </div>
+          <InfoCard title={title}/>
+        </div>
 			</div>
 		</>
 	);

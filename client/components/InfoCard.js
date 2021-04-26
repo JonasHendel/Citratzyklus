@@ -26,26 +26,39 @@ const InfoCard = ({ title }) => {
 				animate={{
 					scale: [0.9, 1.05, 1],
 				}}
-				transition={{ duration: 0.3 }}
+				transition={{ duration: 0.5 }}
 			>
 				<h3 className={styles.heading}>{reaktionsGleichung(title)}</h3>
 
         <br/>
+        <div className={styles.infoDiv}>
+          {!title && <div className={styles.noTitle}>
+            <h1>Citratzyklus</h1>
+            <p>Bewegen Sie den Mauszeiger über den Reaktionsschritt für mehr Informationen</p>
+            <h3>Jonas Hendel</h3>
+          </div>}
+          {title && <div className={styles.infoText}>
+            <h5 className={styles.heading}>ENZYM:</h5>
+            <p>{enzym(title)}</p>
+          </div>}
+          {title && <div className={styles.infoText}>
+            <h5 className={styles.heading}>REAKTION: </h5>
+            <p>{reaktion(title)}</p>
+          </div> }
+          {aktivator(title) && <div className={styles.infoText}>
+            <h5 className={styles.heading}>AKTIVATOR: </h5>
+            <p>{aktivator(title)}</p>
+          </div>}
+          {aktivator(title) && <div className={styles.infoText}>
+            <h5 className={styles.heading}>INHIBITOR: </h5>
+            <p>{inhibitor(title)}</p>
+          </div>}
 
-				<h5 className={styles.heading}>Substrat: {title}</h5>
-				<h5 className={styles.heading}>Produkt: {produkt(title)}</h5>
 
-				<br />
 
-				<h5 className={styles.heading}>Enzym: {enzym(title)}</h5>
+        </div>
 
-				<h5 className={styles.heading}>Reaktion: {reaktion(title)}</h5>
-
-        {aktivator(title) && <h5 className={styles.heading}>Aktivator: {inhibitor(title)}</h5>}
-
-        {inhibitor(title) && <h5 className={styles.heading}>Inhibitor: {inhibitor(title)}</h5>}
-
-				<p>{description(title)}</p>
+				<p className={styles.description}>{description(title)}</p>
 			</motion.div>
 		</>
 	);

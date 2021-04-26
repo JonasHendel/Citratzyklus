@@ -9,17 +9,17 @@ const CitratZyklusGraph = (props) => {
 		props.setTitle(title);
 	};
   const showInfoClick = (title) => {
-    props.setClick(true)
-    props.setTitle(title)
   }
 
 	return (
-		<svg width='1000' height='1000' xmlns='http://www.w3.org/2000/svg'>
+		<svg className="svg2" xmlns='http://www.w3.org/2000/svg' viewBox="0 0 1000 1000">
 			{/* Cards */}
 			<motion.g
-				initial={{ opacity: 0 }}
-				animate={{ opacity: 1 }}
-				transition={{ duration: 2 }}
+        className="reaktionsSchritt"
+				animate={{
+					scale: [0.9, 1.05, 1],
+				}}
+				transition={{ duration: 0.5 }}
 				onClick={() => {
 					showInfoClick('Acetzyl-CoA', );
 				}}
@@ -27,6 +27,7 @@ const CitratZyklusGraph = (props) => {
 					showInfoHover('Acetzyl-CoA');
 				}}
 				onMouseLeave={() => props.setHover(false)}
+
 			>
 				<path
 					className='st11'
@@ -57,9 +58,11 @@ const CitratZyklusGraph = (props) => {
 				</text>
 			</motion.g>
 			<motion.g
-				initial={{ opacity: -1 }}
-				animate={{ opacity: 1 }}
-				transition={{ duration: 2 }}
+        className="reaktionsSchritt"
+				animate={{
+					scale: [0.9, 1.05, 1],
+				}}
+				transition={{ duration: 0.5 }}
 				onClick={() => {
 					showInfoClick('Citrat');
 				}}
@@ -97,9 +100,12 @@ const CitratZyklusGraph = (props) => {
 				</text>
 			</motion.g>
 			<motion.g
-				initial={{ opacity: -2 }}
-				animate={{ opacity: 1 }}
-				transition={{ duration: 2 }}
+        className="reaktionsSchritt"
+				
+				animate={{
+					scale: [0.9, 1.05, 1],
+				}}
+				transition={{ duration: 0.5 }}
 				onClick={() => {
 					showInfoClick('Isocitrat');
 				}}
@@ -137,9 +143,12 @@ const CitratZyklusGraph = (props) => {
 				</text>
 			</motion.g>
 			<motion.g
-				initial={{ opacity: -4 }}
-				animate={{ opacity: 1 }}
-				transition={{ duration: 2 }}
+        className="reaktionsSchritt"
+				
+				animate={{
+					scale: [0.9, 1.05, 1],
+				}}
+				transition={{ duration: 0.5 }}
 				onClick={() => {
 					showInfoClick('α-Ketoglutarat');
 				}}
@@ -177,9 +186,12 @@ const CitratZyklusGraph = (props) => {
 				</text>
 			</motion.g>
 			<motion.g
-				initial={{ opacity: -5 }}
-				animate={{ opacity: 1 }}
-				transition={{ duration: 2 }}
+        className="reaktionsSchritt"
+				
+				animate={{
+					scale: [0.9, 1.05, 1],
+				}}
+				transition={{ duration: 0.5 }}
 				onClick={() => {
 					showInfoClick('Succinly-CoA');
 				}}
@@ -217,9 +229,12 @@ const CitratZyklusGraph = (props) => {
 				</text>
 			</motion.g>
 			<motion.g
-				initial={{ opacity: -6 }}
-				animate={{ opacity: 1 }}
-				transition={{ duration: 2 }}
+        className="reaktionsSchritt"
+				
+				animate={{
+					scale: [0.9, 1.05, 1],
+				}}
+				transition={{ duration: 0.5 }}
 				onClick={() => {
 					showInfoClick('Succinat');
 				}}
@@ -257,9 +272,12 @@ const CitratZyklusGraph = (props) => {
 				</text>
 			</motion.g>
 			<motion.g
-				initial={{ opacity: -7 }}
-				animate={{ opacity: 1 }}
-				transition={{ duration: 2 }}
+        className="reaktionsSchritt"
+				
+				animate={{
+					scale: [0.9, 1.05, 1],
+				}}
+				transition={{ duration: 0.5 }}
 				onClick={() => {
 					showInfoClick('Fumarat');
 				}}
@@ -297,9 +315,12 @@ const CitratZyklusGraph = (props) => {
 				</text>
 			</motion.g>
 			<motion.g
-				initial={{ opacity: -8 }}
-				animate={{ opacity: 1 }}
-				transition={{ duration: 2 }}
+        className="reaktionsSchritt"
+				
+				animate={{
+					scale: [0.9, 1.05, 1],
+				}}
+				transition={{ duration: 0.5 }}
 				onClick={() => {
 					showInfoClick('Malat');
 				}}
@@ -337,9 +358,12 @@ const CitratZyklusGraph = (props) => {
 				</text>
 			</motion.g>
 			<motion.g
-				initial={{ opacity: -9 }}
-				animate={{ opacity: 1 }}
-				transition={{ duration: 2 }}
+        className="reaktionsSchritt"
+				
+				animate={{
+					scale: [0.9, 1.05, 1],
+				}}
+				transition={{ duration: 0.5 }}
 				onClick={() => {
 					showInfoClick('Oxalacetat');
 				}}
@@ -379,219 +403,283 @@ const CitratZyklusGraph = (props) => {
 			{/* Arrows */}
 			<g xmlns='http://www.w3.org/2000/svg' id='Circle_Arrows'>
 				<g
+          className="arrows"
 					id='Lines'
 					fill='none'
-					stroke='black'
-					strokeWidth='4px'
 					strokeLinecap='round'
 				>
 					<motion.path
-						initial={{ opacity: 0 }}
-						animate={{ opacity: 1 }}
-						transition={{ duration: 2 }}
+						
+						animate={{
+					scale: [0.9, 1.05, 1],
+				}}
+						transition={{ duration: 0.5 }}
 						d='M456.43,98.3C456,123,457,147,457,172c0,6,3,12,6,17c9,12,23,14,37,12c11-2,18-10,21.65-20.17'
 					/>
 					<motion.path
-						initial={{ opacity: -1 }}
-						animate={{ opacity: 1 }}
-						transition={{ duration: 2 }}
+						
+						animate={{
+					scale: [0.9, 1.05, 1],
+				}}
+						transition={{ duration: 0.5 }}
 						d='M438.85,207.34C478,201,517,198,556.01,205.1'
 					/>
 					<motion.path
-						initial={{ opacity: -2 }}
-						animate={{ opacity: 1 }}
-						transition={{ duration: 2 }}
+						
+						animate={{
+					scale: [0.9, 1.05, 1],
+				}}
+						transition={{ duration: 0.5 }}
 						d='M668.57,253.03c24.55,15.99,46.64,35.79,65.06,58.57c5.2,6.43,10.11,13.11,14.69,20'
 					/>
 					<motion.path
-						initial={{ opacity: -3 }}
-						animate={{ opacity: 1 }}
-						transition={{ duration: 2 }}
+						
+						animate={{
+					scale: [0.9, 1.05, 1],
+				}}
+						transition={{ duration: 0.5 }}
 						d='M793.73,438.7c9.27,40.3,8.27,82.3,1.04,122'
 					/>
 					<motion.path
-						initial={{ opacity: -4 }}
-						animate={{ opacity: 1 }}
-						transition={{ duration: 2 }}
+						
+						animate={{
+					scale: [0.9, 1.05, 1],
+				}}
+						transition={{ duration: 0.5 }}
 						d='M749.24,669.43C729,701,700,727,668.99,748.68'
 					/>
 					<motion.path
-						initial={{ opacity: -5 }}
-						animate={{ opacity: 1 }}
-						transition={{ duration: 2 }}
+						
+						animate={{
+					scale: [0.9, 1.05, 1],
+				}}
+						transition={{ duration: 0.5 }}
 						d='M438.8,793.62C480,802,522,803,561.83,794.09'
 					/>
 					<motion.path
-						initial={{ opacity: -6 }}
-						animate={{ opacity: 1 }}
-						transition={{ duration: 2 }}
+						
+						animate={{
+					scale: [0.9, 1.05, 1],
+				}}
+						transition={{ duration: 0.5 }}
 						d='M254.25,668.58C276,698,300,727,331.42,747.33'
 					/>
 					<motion.path
-						initial={{ opacity: -7 }}
-						animate={{ opacity: 1 }}
-						transition={{ duration: 2 }}
+						
+						animate={{
+					scale: [0.9, 1.05, 1],
+				}}
+						transition={{ duration: 0.5 }}
 						d='M203.45,443.81C197,483,197,523,206.59,560.91'
 					/>
 					<motion.path
-						initial={{ opacity: -8 }}
-						animate={{ opacity: 1 }}
-						transition={{ duration: 2 }}
+						
+						animate={{
+					scale: [0.9, 1.05, 1],
+				}}
+						transition={{ duration: 0.5 }}
 						d='M331.58,251.54C300,272,273,300,251.1,330.89'
 					/>
 				</g>
 				<g
 					id='Lines'
 					fill='none'
-					stroke='black'
-					strokeWidth='4px'
+					className="arrows"
 					strokeLinecap='round'
 				>
 					<motion.path
-						initial={{ opacity: 0 }}
-						animate={{ opacity: 1 }}
-						transition={{ duration: 2 }}
+						
+						animate={{
+					scale: [0.9, 1.05, 1],
+				}}
+						transition={{ duration: 0.5 }}
 						d='M456.87,152.67c2.05-10.48,10.64-19.76,21.07-22.28'
 					/>
 					<motion.path
-            initial={{ opacity: -2 }}
-						animate={{ opacity: 1 }}
-						transition={{ duration: 2 }}
+            
+						animate={{
+					scale: [0.9, 1.05, 1],
+				}}
+						transition={{ duration: 0.5 }}
 						d='M823.27,464c0,0-23.1,13.58-23.1,37.29c0,22.24,24.5,33.18,24.5,33.18'
 					/>
 					<motion.path
-						initial={{ opacity: -3 }}
-						animate={{ opacity: 1 }}
-						transition={{ duration: 2 }}
+						
+						animate={{
+					scale: [0.9, 1.05, 1],
+				}}
+						transition={{ duration: 0.5 }}
 						d='M753.44,706c0,0-25.94-6.73-42.71,10.03c-15.72,15.72-6.13,40.78-6.13,40.78'
 					/>
 					<motion.path
-						initial={{ opacity: -4 }}
-						animate={{ opacity: 1 }}
-						transition={{ duration: 2 }}
+						
+						animate={{
+					scale: [0.9, 1.05, 1],
+				}}
+						transition={{ duration: 0.5 }}
 						d='M540.5,827.1c0,0-11.36-24.27-34.96-26.5c-22.14-2.08-35.33,21.28-35.33,21.28'
 					/>
 					<motion.path
-						initial={{ opacity: -5 }}
-						animate={{ opacity: 1 }}
-						transition={{ duration: 2 }}
+						
+						animate={{
+					scale: [0.9, 1.05, 1],
+				}}
+						transition={{ duration: 0.5 }}
 						d='M298.52,758.09c0,0,8.62-25.37-6.87-43.33c-14.53-16.84-40.22-9.11-40.22-9.11'
 					/>
 					<motion.path
-						initial={{ opacity: -5 }}
-						animate={{ opacity: 1 }}
-						transition={{ duration: 2 }}
+						
+						animate={{
+					scale: [0.9, 1.05, 1],
+				}}
+						transition={{ duration: 0.5 }}
 						d='M213.02,740.08c0,0-5.51,26.22,12.02,42.19c16.44,14.97,41.03,4.22,41.03,4.22'
 					/>
 					<motion.path
-						initial={{ opacity: -5 }}
-						animate={{ opacity: 1 }}
-						transition={{ duration: 2 }}
+						
+						animate={{
+					scale: [0.9, 1.05, 1],
+				}}
+						transition={{ duration: 0.5 }}
 						d='M232.65,828.26c0,0,8.62-25.37-6.87-43.33c-14.53-16.84-40.22-9.11-40.22-9.11'
 					/>
 					<motion.path
-						initial={{ opacity: -6 }}
-						animate={{ opacity: 1 }}
-						transition={{ duration: 2 }}
+						
+						animate={{
+					scale: [0.9, 1.05, 1],
+				}}
+						transition={{ duration: 0.5 }}
 						d='M242.84,293.78c0,0,25.15,9.26,43.49-5.77c17.2-14.09,10.13-39.98,10.13-39.98'
 					/>
 				</g>
-				<g stroke='black' strokeWidth='4px' strokeMiterlimit='10'>
+				<g className="arrows" strokeMiterlimit='10'>
 					<motion.polygon
-						initial={{ opacity: -2 }}
-            animate={{ opacity: 1 }}
-            transition={{ duration: 2 }}
+						
+            animate={{
+					scale: [0.9, 1.05, 1],
+				}}
+            transition={{ duration: 0.5 }}
 						points='829.97,538.74 822.5,530.2 819.36,534.72  '
 					/>
 					<motion.polygon
-						initial={{ opacity: -3 }}
-						animate={{ opacity: 1 }}
-						transition={{ duration: 2 }}
+						
+						animate={{
+					scale: [0.9, 1.05, 1],
+				}}
+						transition={{ duration: 0.5 }}
 						points='705.76,764.19 706.39,752.86 700.99,753.9  '
 					/>
 					<motion.polygon
-						initial={{ opacity: -4 }}
-						animate={{ opacity: 1 }}
-						transition={{ duration: 2 }}
+						
+						animate={{
+					scale: [0.9, 1.05, 1],
+				}}
+						transition={{ duration: 0.5 }}
 						points='465.4,827.84 474.46,821.02 470.19,817.56  '
 					/>
 					<motion.polygon
-						initial={{ opacity: -5 }}
-						animate={{ opacity: 1 }}
-						transition={{ duration: 2 }}
+						
+						animate={{
+					scale: [0.9, 1.05, 1],
+				}}
+						transition={{ duration: 0.5 }}
 						points='243.84,706.61 255.1,707.97 254.41,702.51  '
 					/>
 					<motion.polygon
-						initial={{ opacity: -5 }}
-						animate={{ opacity: 1 }}
-						transition={{ duration: 2 }}
+						
+						animate={{
+					scale: [0.9, 1.05, 1],
+				}}
+						transition={{ duration: 0.5 }}
 						points='273.48,784.63 262.15,784.63 263.48,789.96  '
 					/>
 					<motion.polygon
-						initial={{ opacity: -5 }}
-						animate={{ opacity: 1 }}
-						transition={{ duration: 2 }}
+						
+						animate={{
+					scale: [0.9, 1.05, 1],
+				}}
+						transition={{ duration: 0.5 }}
 						points='231.09,832.6 236.43,822.6 231.09,821.26  '
 					/>
 					<motion.polygon
-						initial={{ opacity: -6 }}
-						animate={{ opacity: 1 }}
-						transition={{ duration: 2 }}
+						
+						animate={{
+					scale: [0.9, 1.05, 1],
+				}}
+						transition={{ duration: 0.5 }}
 						points='296.03,240.59 294.29,251.79 299.77,251.3  '
 					/>
 					<motion.polygon
-						initial={{ opacity: 0 }}
-						animate={{ opacity: 1 }}
-						transition={{ duration: 2 }}
+						
+						animate={{
+					scale: [0.9, 1.05, 1],
+				}}
+						transition={{ duration: 0.5 }}
 						points='523.9,177.29 516.29,185.71 521.15,188.29  '
 					/>
 					<motion.polygon
-						initial={{ opacity: -1 }}
-						animate={{ opacity: 1 }}
-						transition={{ duration: 2 }}
+						
+						animate={{
+					scale: [0.9, 1.05, 1],
+				}}
+						transition={{ duration: 0.5 }}
 						
 						points='560.34,206.09 550.33,200.76 549,206.09  '
 					/>
 					<motion.polygon
-						initial={{ opacity: -2 }}
-						animate={{ opacity: 1 }}
-						transition={{ duration: 2 }}
+						
+						animate={{
+					scale: [0.9, 1.05, 1],
+				}}
+						transition={{ duration: 0.5 }}
 						points='748.44,331.87 744.25,321.34 739.78,324.55  '
 					/>
 					<motion.polygon
-						initial={{ opacity: -3 }}
-						animate={{ opacity: 1 }}
-						transition={{ duration: 2 }}
+						
+						animate={{
+					scale: [0.9, 1.05, 1],
+				}}
+						transition={{ duration: 0.5 }}
 						points='794.66,561.59 799.09,551.15 793.66,550.29  '
 					/>
 					<motion.polygon
-						initial={{ opacity: -4 }}
-						animate={{ opacity: 1 }}
-						transition={{ duration: 2 }}
+						
+						animate={{
+					scale: [0.9, 1.05, 1],
+				}}
+						transition={{ duration: 0.5 }}
 						points='666.48,750.33 677.11,746.38 674,741.84  '
 					/>
 					<motion.polygon
-						initial={{ opacity: -5 }}
-						animate={{ opacity: 1 }}
-						transition={{ duration: 2 }}
+						
+						animate={{
+					scale: [0.9, 1.05, 1],
+				}}
+						transition={{ duration: 0.5 }}
 						points='438.62,793.65 448.87,798.49 449.95,793.1  '
 					/>
 					<motion.polygon
-						initial={{ opacity: -6 }}
-						animate={{ opacity: 1 }}
-						transition={{ duration: 2 }}
+						
+						animate={{
+					scale: [0.9, 1.05, 1],
+				}}
+						transition={{ duration: 0.5 }}
 						points='253.91,667.83 258.32,678.27 262.72,674.96  '
 					/>
 					<motion.polygon
-						initial={{ opacity: -7 }}
-						animate={{ opacity: 1 }}
-						transition={{ duration: 2 }}
+						
+						animate={{
+					scale: [0.9, 1.05, 1],
+				}}
+						transition={{ duration: 0.5 }}
 						points='204.16,439.76 200.11,450.35 205.57,451.01  '
 					/>
 					<motion.polygon
-						initial={{ opacity: -8 }}
-						animate={{ opacity: 1 }}
-						transition={{ duration: 2 }}
+						
+						animate={{
+					scale: [0.9, 1.05, 1],
+				}}
+						transition={{ duration: 0.5 }}
 						points='332.38,251.16 321.64,254.78 324.6,259.41  '
 					/>
 				</g>

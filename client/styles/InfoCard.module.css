@@ -1,8 +1,50 @@
+.infoText h5 {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+.infoText p {
+  margin-top: 0px;
+  margin-bottom: 0px; 
+  font-size: 13px;
+  color: rgba(255, 254, 254, 0.651);
+}
+
 .heading {
-  margin: 0;
+  color: rgb(255, 255, 255);
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-right: 5px;
 }
 
 .substratProdukt {
   display: flex;
   justify-content: space-between;
+}
+
+.infoDiv {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.infoText {
+  display: flex;
+  margin-right: 5px;
+}
+
+.description {
+  color: rgba(255, 255, 255, 0.767);
+}
+
+.noTitle {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+.noTitle h3 {
+  color: rgba(255, 255, 255, 0.616);
+}
+
+.noTitle p {
+  color: rgba(255, 255, 255, 0.856);
 }
