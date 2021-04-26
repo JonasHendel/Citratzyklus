@@ -34,6 +34,7 @@ export default function Home() {
 
 	return (
 		<>
+    <div className="circle"/>
 			<div className='container' ref={mDiv}>
         <div className='textCard'>
           <h1>Test</h1>
