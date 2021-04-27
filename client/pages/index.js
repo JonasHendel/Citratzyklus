@@ -34,12 +34,25 @@ export default function Home() {
 
 	return (
 		<>
-    <div className="circle"/>
 			<div className='container' ref={mDiv}>
-        <div className='textCard'>
-          <h1>Test</h1>
-          <p></p>
+        <div className='textContainer'>
+        <div className="leftCard">
+          <div className='textCard'>
+            <h1>Test</h1>
+            <p></p>
+          </div>
+          <div className='textCard'>
+            <h1>Test</h1>
+            <p></p>
+          </div>
         </div>
+        <div className='rightCard'>
+          <div className='textCard '>
+            <h1>Test</h1>
+            <p></p>
+          </div>
+        </div>
+      </div>
         <div className='graphContainer'>
           <div className='svg'>
             <CitratZyklusGraph hover={hover} setHover={setHover} setTitle={setTitle}/>
