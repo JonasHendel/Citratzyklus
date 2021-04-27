@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useEffect} from 'react';
 import { motion } from 'framer-motion';
 
 
@@ -9,7 +9,20 @@ const CitratZyklusGraph = (props) => {
 		props.setTitle(title);
 	};
   const showInfoClick = (title) => {
+    props.setClick(true)
+    props.setTitle(title)
   }
+
+  const handleScroll=() => {
+    const offset=window.scrollY;
+    if(offset > 100 ){
+      props.setTitle();
+    }
+  }
+
+  useEffect(() => {
+    window.addEventListener('scroll',handleScroll)
+  })
 
 	return (
 		<svg className="svg2" xmlns='http://www.w3.org/2000/svg' viewBox="0 0 1000 1000">
