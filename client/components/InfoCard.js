@@ -58,7 +58,7 @@ const InfoCard = ({ title }) => {
 
         </div>
 
-				<p className={styles.description}>{description(title)}</p>
+				<p className={styles.description} style={{fontSize: 14}}>{description(title)}</p>
 			</motion.div>
 		</>
 	);
