@@ -13,16 +13,16 @@ function Welcome() {
 					<h1>Citratzyklus</h1>
 					<h3>Jonas Hendel</h3>
 					<Link href='https://docs.google.com/document/d/1IcOHua0btCcIxDC4L0R1cazdSkjPYELP_toNITxqBjY/edit'>
-          <motion.div style={{ display: 'flex', alignItems: 'center', marginTop: 100}} >
+          <motion.div className="projektBeschreibung" >
             <ArrowRight size={15}/>
 						<a style={{ marginLeft: 10 }}>Projektbeschreibung </a>
           </motion.div>
 					</Link>
 				</div>
 				<div className='right'>
-					<motion.img
+					<img
 						src='./biology.png'
-					></motion.img>
+					></img>
 				</div>
 			</div>
 		</div>

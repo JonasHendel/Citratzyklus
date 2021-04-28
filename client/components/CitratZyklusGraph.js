@@ -13,19 +13,19 @@ const CitratZyklusGraph = (props) => {
     props.setTitle(title)
   }
 
-  const handleScroll=() => {
-    const offset=window.scrollY;
-    if(offset > 100 ){
-      props.setTitle();
-    }
-  }
+  // const handleScroll=() => {
+  //   const offset=window.scrollY;
+  //   if(offset > 100 ){
+  //     props.setTitle();
+  //   }
+  // }
 
-  useEffect(() => {
-    window.addEventListener('scroll',handleScroll)
-  })
+  // useEffect(() => {
+  //   window.addEventListener('scroll',handleScroll)
+  // })
 
 	return (
-		<svg className="svg2" xmlns='http://www.w3.org/2000/svg' viewBox="0 0 1000 1000">
+		<svg className="svg2" xmlns='http://www.w3.org/2000/svg' viewBox="0 0 1000 900">
 			{/* Cards */}
 			<motion.g
         className="reaktionsSchritt"

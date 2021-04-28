@@ -2,76 +2,100 @@
 
 html,
 body {
-  padding: 0;
+	padding: 0;
 	margin: 0;
 	font-family: 'Source Sans Pro', sans-serif;
 }
 
 body {
-  background: #FFFFD1;
+	background: #ffffd1;
 }
 h3,
 h1 {
-  margin: 0;
+	margin: 0;
 }
 
 a {
-  color: inherit;
+	color: inherit;
 	text-decoration: none;
 }
 
 * {
-  box-sizing: border-box;
+	box-sizing: border-box;
 }
 
 .card {
-  display: flex;
+	display: flex;
 	justify-content: center;
 }
 
 .container {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  position: relative;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	position: relative;
 }
 
 .graphContainer {
-  width: 80vw;
-  height: 90vh;
-  border-radius: 20px;
-  background: linear-gradient(to right bottom, #8796be, #23caa0);
-  display: flex;
-  justify-content: center;
-  position: relative;
+  min-width: 400px;
+  margin-bottom: 100px;
+	width: 80vw;
+	height: auto;
+	border-radius: 20px;
+	background: linear-gradient(to right bottom, #8796be, #23caa0);
+	display: flex;
+	justify-content: center;
+	position: relative;
 }
 
 .svg {
-  z-index: 50;
-  margin-top: 10px;
+	z-index: 50;
+	margin-top: 10px;
+
 }
 
 .svg2 {
-  width: 850px
+	width: 850px;
 }
 
 .card {
-  z-index: 50;
-  margin-top: 260px;
+	z-index: 50;
+	margin-top: 260px;
 	width: 350px;
 	height: 330px;
-	background: linear-gradient(to right bottom, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.1));
-  backdrop-filter: blur(20px);
+	background: linear-gradient(
+		to right bottom,
+		rgba(255, 255, 255, 0.3),
+		rgba(255, 255, 255, 0.1)
+	);
+	backdrop-filter: blur(20px);
 	border-radius: 10px;
 	padding: 20px;
 	color: white;
-  border: 2px solid rgba(255, 255, 255, 0.496);
+	border: 2px solid rgba(255, 255, 255, 0.496);
 	display: flex;
 	flex-direction: column;
 	justify-content: flex-start;
-  position: absolute;
-  box-shadow: 0px 0px 20px 4px rgba(0, 0, 0, 0.15);
+	position: absolute;
+	box-shadow: 0px 0px 20px 4px rgba(0, 0, 0, 0.15);
+}
+
+@media only screen and (max-width: 850px) {
+	.svg2 {
+		width: 90vw;
+	}
+	.card {
+    margin-bottom: 50px;
+		position: relative;
+    margin-top: 0px;
+	}
+  .graphContainer {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+  }
 }
 
 .card p {
@@ -85,22 +109,21 @@ a {
 .st12 {
 	stroke: rgba(255, 255, 255, 0.534);
 	stroke-width: 2px;
-  fill: rgba(255, 255, 255, 0.329);
+	fill: rgba(255, 255, 255, 0.329);
 }
 
 .st11 {
-  fill: rgba(255, 255, 255, 0.2);
-  filter: blur();
-  stroke: rgba(255, 255, 255, 0.496);
-  stroke-width: 2px;
+	fill: rgba(255, 255, 255, 0.2);
+	filter: blur();
+	stroke: rgba(255, 255, 255, 0.496);
+	stroke-width: 2px;
 }
 
 .reaktionsSchritt:hover .st11 {
-  stroke: rgba(255, 255, 255, 0.801);
+	stroke: rgba(255, 255, 255, 0.801);
 	stroke-width: 2px;
-  fill: rgba(255, 255, 255, 0.452);
+	fill: rgba(255, 255, 255, 0.452);
 }
-
 
 .st13 {
 	fill: rgb(255, 255, 255);
@@ -112,92 +135,145 @@ a {
 }
 
 .st15 {
-  fill: none;
+	fill: none;
 }
 
 .arrows {
-  fill: none;
-  stroke: rgb(219, 219, 219);
-  stroke-width: 4px;
+	fill: none;
+	stroke: rgb(219, 219, 219);
+	stroke-width: 4px;
 }
 
 .textCard {
-  margin: 0px 0px 0px 0px;
-  display: flex;
-  flex-direction: column;
-  width: 550px;
-  height: 340px;
+	margin: 0px 0px 0px 0px;
+	display: flex;
+	flex-direction: column;
+	width: 40%;
+	height: 340px;
 	border-radius: 10px;
 	padding: 20px;
-	color: #FFFFD1;
-  border: 4px solid #FFFFD1;
+	color: #ffffd1;
+	border: 4px solid #ffffd1;
 }
-
 
 .textCard h1 {
-  text-transform: uppercase;
+	text-transform: uppercase;
 }
 
-
 .st6 {
-  fill: white;
+	fill: white;
 }
 
 .textContainer {
-  margin-top: 100px;
-  margin-bottom: 100px;
-  background: linear-gradient(to right bottom, #ec008c, #fc6767);
-  border-radius: 20px;
-  width: 80vw;
-  height: 90vh;
-  display: flex;
-  justify-content: space-evenly;
-  box-shadow: 0px 0px 20px 4px rgb(0, 0, 0, 0.2);
-}
-.rightCard{
-  display: flex;
-  align-items: center;
-}
-
-.leftCard {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-evenly;
+	min-width: 400px;
+	margin-top: 100px;
+	margin-bottom: 100px;
+	background: linear-gradient(to right bottom, #ec008c, #fc6767);
+	border-radius: 20px;
+	width: 80vw;
+	height: 90vh;
+	display: flex;
+	flex-flow: column wrap;
+	justify-content: space-evenly;
+	align-items: center;
+	box-shadow: 0px 0px 20px 4px rgb(0, 0, 0, 0.2);
 }
 
-.welcomeContainer{
-  width: 100vw;
-  height: 100vh;
-  display: flex;
-  justify-content: center;
+@media only screen and (max-width: 1350px) {
+	.textContainer {
+		height: auto;
+	}
+
+	.textCard {
+		margin: 50px 0px 50px 0px;
+		height: auto;
+		width: 80%;
+	}
+	.textContainer :nth-child(1) {
+		order: 1;
+	}
+	.textContainer :nth-child(2) {
+		order: 3;
+	}
+	.textContainer :nth-child(3) {
+		order: 2;
+	}
+}
+.welcomeContainer {
+	width: 100vw;
+	height: 100vh;
+	display: flex;
+	justify-content: center;
 }
 
 .contentArea {
-  width: 70vw;
-  height: 100vh;
-  display: flex;
-  align-items: center;
+	width: 70vw;
+	height: 100vh;
+	display: flex;
+  justify-content: space-between;
+  flex-flow: row wrap-reverse;
 }
 
 .left {
-  height: 100vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
 }
 
 .left h1 {
-  font-size: 100px;
+	font-size: 6vw;
 }
 
 .left h3 {
-  font-size: 50px;
+	font-size: 3vw;
 }
 
 .right {
-  margin-left: 200px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 
+.right img {
+  width: 30vw;
+  min-width: 400px;
+}
+
+.projektBeschreibung {
+  display: flex;
+  align-items: center;
+  margin-top: 100px;
+}
+
+@media only screen and (max-width: 1000px) {
+  .welcomeContainer {
+    height: auto;
+  }
+
+  .contentArea {
+    margin-top: 100px;
+    height: auto;
+  }
+
+  .right {
+    display: none;
+  }
+  .left {
+    width: 80vw;
+    align-items: center;
+  }
+
+  .left h1 {
+    font-size: 10vw;
+  }
+
+  .left h3 {
+    font-size: 4vw;
+  }
+
+  .projektBeschreibung {
+    display: flex;
+    align-items: center;
+    margin-top: 50px;
+  }
+}
