@@ -13,16 +13,40 @@ function Introduction() {
 				<h1>Was ist der Citratzyklus</h1>
 				<p>
 					Der Citratzyklus ist ein zyklischer Stoffwechselweg welcher
-					im Matrixraum der Mitchondrien stattfindet. Hier treffen die
-					Abbauwege des Kohlenhydrat-, Protein- und Fettstoffwechsels
-					in From von Acetyl-CoA zusammen. Seine Hauptaufgabe ist es,
-					Elektronen von Acetylresten zu gewinnen in dem er diese
-					Oxidiert. Die Acetylreste werden zu CO2 und H2O abgebaut.
-					Dabei werden sowohl für den Aufbau organischer
-					Körperbestandteile des Lebewesens nutzbare Zwischenprodukte
-					gebildet wie auch Energie in Form von 3 NADH/H+, 1 FADH2 und
-					1 GTP. Die Elektronen von NADH/H+ und FADH2 werden in der
-					Atmungskette benötigt.
+					im Matrixraum der{' '}
+					<a href='https://de.wikipedia.org/wiki/Mitochondrium' target="_blank">
+						Mitchondrien
+					</a>{' '}
+					stattfindet. Hier treffen die Abbauwege des Kohlenhydrat-,
+					Protein- und Fettstoffwechsels in From von{' '}
+					<a href='https://de.wikipedia.org/wiki/Acetyl-Coenzym_A' target="_blank">
+						Acetyl-CoA
+					</a>{' '}
+					zusammen. Seine Hauptaufgabe ist es, Elektronen von
+					Acetylresten zu gewinnen in dem er diese{' '}
+					<a href='https://de.wikipedia.org/wiki/Oxidation' target="_blank">
+						Oxidiert
+					</a>
+					. Die Acetylreste werden zu CO2 und H2O abgebaut. Dabei
+					werden sowohl für den Aufbau organischer Körperbestandteile
+					des Lebewesens nutzbare Zwischenprodukte gebildet wie auch
+					Energie in Form von 3{' '}
+					<a href='https://de.wikipedia.org/wiki/Nicotinamidadenindinukleotid' target="_blank">
+						NADH/H+
+					</a>
+					, 1{' '}
+					<a href='https://de.wikipedia.org/wiki/Flavin-Adenin-Dinukleotid' target="_blank">
+						FADH2
+					</a>{' '}
+					und 1{' '}
+					<a href='https://de.wikipedia.org/wiki/Guanosintriphosphat' target="_blank">
+						GTP
+					</a>
+					. Die Elektronen von NADH/H+ und FADH2 werden in der{' '}
+					<a href='https://de.wikipedia.org/wiki/Atmungskette' target="_blank">
+						Atmungskette
+					</a>{' '}
+					benötigt.
 				</p>
 			</motion.div>
 			<motion.div
@@ -32,10 +56,16 @@ function Introduction() {
 				<h1>Regulation</h1>
 				<p>
 					Der Citratzyklus unterliegt starken regulatorischen
-					Einflüssen, da er eine zentrale Rolle im aeroben
-					Metabolismus hat. Zwischenverbindungen wie NAD+/NADH,
-					ADP/ATP und Ca2+ spielen als Effektoren eine große Rolle.
-					Besonders exergone Teilschritte werden reguliert.
+					Einflüssen, da er eine zentrale Rolle im{' '}
+					<a href='https://de.wikipedia.org/wiki/Aerobie' target="_blank">
+						aeroben Metabolismus
+					</a>{' '}
+					hat. Zwischenverbindungen wie NAD+/NADH, ADP/ATP und Ca2+
+					spielen als Effektoren eine große Rolle. Besonders{' '}
+					<a href='https://de.wikipedia.org/wiki/Exergone_und_endergone_Reaktion' target="_blank">
+						exergone
+					</a>{' '}
+					Teilschritte werden reguliert.
 					<br />
 					Darunter die Citrat-Synthese, Ketoglutarat- und Succinyl-
 					CoA bildung. Ist viel NADH vorzufinden werden diese
@@ -43,11 +73,14 @@ function Introduction() {
 					Sauerstoffmangel passieren, da die Atmungskette weniger NADH
 					verbraucht.
 					<br />
-					Auch bei hoher ATP-Konzentration wird der Zyklus gebremst.
-					Die ATP-Konzentration steigt zum Beispiel während des
-					Schlafes, da man weniger Energie benötigt. Auch wird der
-					Citrazyklus vom Angebot der Substrate und der hemmung durch
-					Rückkopplung reguliert.
+					Auch bei hoher{' '}
+					<a href='https://de.wikipedia.org/wiki/Adenosintriphosphat' target="_blank">
+						ATP-Konzentration
+					</a>{' '}
+					wird der Zyklus gebremst. Die ATP-Konzentration steigt zum
+					Beispiel während des Schlafes, da man weniger Energie
+					benötigt. Auch wird der Citrazyklus vom Angebot der
+					Substrate und der hemmung durch Rückkopplung reguliert.
 				</p>
 			</motion.div>
 			<motion.div
@@ -58,17 +91,43 @@ function Introduction() {
 				<p>
 					Acetyl-CoA ist das Abbauprodukt verschiedener
 					Nährstoffklassen. So wird zum Beispiel aus Fettsäuren
-					mithilfe der β-Oxidation Acetyl-CoA Moleküle gebildet.
+					mithilfe der{' '}
+					<a href='https://de.wikipedia.org/wiki/%CE%92-Oxidation' target="_blank">
+						β-Oxidation
+					</a>{' '}
+					Acetyl-CoA Moleküle gebildet.
 					<br />
-					In der Glykolyse werden Kohlenhydrate zu Pyruvat abgebaut,
-					welches dann durch den Pyruvatdehydrogenase-Komplex
-					Decarboxyliert wird. Es entsteht eine Bindung
-					(Thiosterbindung) zwischen dem Acetatrest und dem Coenzym A.
+					In der{' '}
+					<a href='https://de.wikipedia.org/wiki/Glykolyse' target="_blank">
+						Glykolyse
+					</a>{' '}
+					werden Kohlenhydrate zu{' '}
+					<a href='https://de.wikipedia.org/wiki/Pyruvate'></a>Pyruvat
+					abgebaut, welches dann durch den{' '}
+					<a href='https://de.wikipedia.org/wiki/Pyruvatdehydrogenase-Komplex' target="_blank">
+						Pyruvatdehydrogenase-Komplex
+					</a>{' '}
+					Decarboxyliert wird. Es entsteht eine Bindung (
+					<a href='https://de.wikipedia.org/wiki/Thioester' target="_blank">
+						Thiosterbindung
+					</a>
+					) zwischen dem{' '}
+					<a href='https://de.wikipedia.org/wiki/Acetate' target="_blank">
+						Acetatrest
+					</a>{' '}
+					und dem{' '}
+					<a href='https://de.wikipedia.org/wiki/Coenzym_A' target="_blank">
+						Coenzym A
+					</a>
+					.
 					<br />
 					Auch Proteine werden zu Aminosäuren wie Oxalacetat oder
-					α-Ketoglutarat hydrolisiert. Diese Ketosäuren sind häufig
-					Intermediate des Citratzyklus und fließen direkt darin ein.
-					.
+					α-Ketoglutarat hydrolisiert. Diese{' '}
+					<a href='https://de.wikipedia.org/wiki/Ketos%C3%A4uren' target="_blank">
+						Ketosäuren
+					</a>{' '}
+					sind häufig Zwischenprodukte des Citratzyklus und fließen
+					direkt darin ein. .
 				</p>
 			</motion.div>
 		</div>

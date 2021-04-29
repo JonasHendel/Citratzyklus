@@ -22,8 +22,10 @@
 }
 
 .infoDiv {
+  width: 100%;
   display: flex;
   flex-flow: row wrap;
+
 }
 
 .infoText {
@@ -36,8 +38,11 @@
 }
 
 .noTitle {
+  width: 350px;
+	height: 250px;
   display: flex;
   flex-direction: column;
+  justify-content: center;
   align-items: center;
   text-align: center;
   mix-blend-mode: overlay;
