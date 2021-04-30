@@ -22,7 +22,7 @@ function Introduction() {
 					</a>{' '}
 					stattfindet. Hier treffen die Abbauwege des Kohlenhydrat-,
 					Protein- und Fettstoffwechsels aufeinander. Seine
-					Hauptaufgabe ist es, Elektronen von Acetylresten zu gewinnen
+					Hauptaufgabe ist es, Elektronen von Acetylresten zu gewinnen,
 					in dem er diese{' '}
 					<a
 						href='https://de.wikipedia.org/wiki/Oxidation'
@@ -32,7 +32,7 @@ function Introduction() {
 					</a>
 					. Die Acetylreste werden zu CO2 und H2O abgebaut. Dabei
 					werden sowohl für den Aufbau organischer Körperbestandteile
-					des Lebewesens nutzbare Zwischenprodukte gebildet wie auch
+					des Lebewesens nutzbare Zwischenprodukte gebildet, wie auch
 					Energie in Form von 3{' '}
 					<a
 						href='https://de.wikipedia.org/wiki/Nicotinamidadenindinukleotid'
@@ -94,7 +94,7 @@ function Introduction() {
 					Teilschritte werden reguliert.
 					<br />
 					Darunter die Citrat-Synthese, Ketoglutarat- und Succinyl-
-					CoA bildung. Ist viel NADH vorzufinden werden diese
+					CoA bildung. Ist viel NADH vorzufinden, werden diese
 					Teilschritte gehemmt. Dies kann zum Beispiel durch
 					Sauerstoffmangel passieren, da die Atmungskette weniger NADH
 					verbraucht.
@@ -108,9 +108,9 @@ function Introduction() {
 					</a>{' '}
 					wird der Zyklus gebremst. Die ATP-Konzentration steigt zum
 					Beispiel während des Schlafes, da man weniger Energie
-					benötigt. Durch einer hohen ADP-konzentration wird der
+					benötigt. Durch eine hohen ADP-konzentration wird der
 					Zitrazyklus "beschleunigt". Auch wird der Citrazyklus vom
-					Angebot der Substrate und der hemmung durch Rückkopplung
+					Angebot der Substrate und der Hemmung durch Rückkopplung
 					reguliert (siehe Graph).
 				</p>
 			</motion.div>
