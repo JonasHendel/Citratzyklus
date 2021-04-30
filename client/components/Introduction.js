@@ -9,7 +9,6 @@ function Introduction() {
 			<motion.div
 				className='textCard'
 				whileHover={{ scale: 1.05, duration: 1 }}
-				style={{ fontSize: 15 }}
 			>
 				<h1>Was ist der Citratzyklus</h1>
 				<p>
