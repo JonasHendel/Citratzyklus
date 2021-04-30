@@ -38,7 +38,7 @@ a {
 }
 
 .graphContainer {
-  min-width: 400px;
+  min-width: 350px;
   margin-bottom: 100px;
 	width: 80vw;
 	height: auto;
@@ -83,7 +83,7 @@ a {
 
 @media only screen and (max-width: 850px) {
 	.svg2 {
-		width: 90vw;
+		width: 95vw;
 	}
 	.card {
     margin-bottom: 50px;
@@ -94,6 +94,13 @@ a {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    height: auto;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .card {
+    width: 90%;
     height: auto;
   }
 }
@@ -171,7 +178,7 @@ a {
 
 .textContainer {
   min-height: 900px;
-	min-width: 400px;
+	min-width: 350px;
 	margin-top: 100px;
 	margin-bottom: 100px;
 	background: linear-gradient(to right bottom, #ec008c, #fc6767);
