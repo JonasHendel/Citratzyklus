@@ -1,23 +1,23 @@
 export const description = (title) => {
 	switch (title) {
 		case 'Acetzyl-CoA':
-			return 'Die Citratsynthase katalysiert die Übertragung von Acetyl-CoA (C2 Verbindung) aufOxalacetat (C4 Verbindung) unter der Bildung von Citrat (C6 Verbindung). H2O wird eingeführt und das Coenzym A abgespalten. Hierbei wird die energiereiche Thioesterbindung des Acetyl-CoA durch einer Hydrolyse aufgespalten.';
+			return 'Die Citratsynthase katalysiert die Übertragung von Acetyl-CoA  auf Oxalacetat  unter der Bildung von Citrat . H2O wird eingeführt und das Coenzym A abgespalten. Hierbei wird die energiereiche Thioesterbindung des Acetyl-CoA durch eine Hydrolyse aufgespalten.';
 		case 'Citrat':
-			return 'Die Actionase katalyisert die Dehydratisierung von Citrat(C6) zu cis-Aconitat und Wasser. Daraufhin katalysiert die Actionase die Hydratisierung von cis-Aconitat und Wasser zu Isocitrat(C6). Dabei wird die OH-Gruppe vom Citrat an ein benachbartes Kohlenstoffatom abgegebn. So lagert es sich zu Isocitrat um. Beide Verbindungen besizten die gleichen Atome, sie sind aber jeweils unterschiedlich angeordnet. So entsteht aus einem tertitären Alkohol ein sekundärer Alkohol.';
+			return 'Die Actionase katalyisert die Dehydratisierung von Citrat zu cis-Aconitat und Wasser (Zwischenschritt). Daraufhin katalysiert die Actionase die Hydratisierung von cis-Aconitat und Wasser zu Isocitrat(). Dabei wird die OH-Gruppe vom Citrat an ein benachbartes Kohlenstoffatom abgegeben. So lagert es sich zu Isocitrat um. Beide Verbindungen besizten die gleichen Atome, sie sind aber jeweils unterschiedlich angeordnet. So entsteht aus einem tertitären Alkohol ein sekundärer Alkohol.';
 		case 'Isocitrat':
-			return 'Die Isocitrat-Dehydrogenase katalysiert die Oxidation von Isocitrat und NAD+ zu Oxalsuccinat, die abgegebenen Elektronen werden auf den Elektronencarrier NAD+ übertragen und es entsteht ein Molekül NADH/H+. Darufhin katalysiert das Enzym die Decarboxylierung von Oxalsuccinat und H+ zu α-Ketoglutarat und CO2.  ';
+			return 'Die Isocitrat-Dehydrogenase katalysiert die Oxidation von Isocitrat und NAD+ zu Oxalsuccinat, die abgegebenen Elektronen werden auf den Elektronencarrier NAD+ übertragen und es entsteht ein Molekül NADH/H+. Darufhin katalysiert das Enzym die Decarboxylierung von Oxalsuccinat und H+ zu α-Ketoglutarat und CO2.';
 		case 'α-Ketoglutarat':
 			return 'Die NAD+ abhängige α-Ketoglutarat-Dehydrogenase katalysiert die Oxidation und CO2 absplatung von α-Ketoglutarat. Es entsteht wieder ein Molekül NADH/H+. Zusätzlich überträgt ein Multienzymkomplex eine Coenzym A-Gruppe (CoA) auf das gebildete Molekül. Das Molekül heißt Succinyl-CoA und hat ein sehr energiereiche Bindung.';
 		case 'Succinly-CoA':
 			return 'Die Succinyl-CoA-Synthetase katalysiert die Abspaltung des Coenzym-A vom Succinyl-CoA Molekül. Dabei wird GTP frei, welches anschließend zu ATP umgewandlet wird. Nun liegt ein Succinat Molekül vor.';
 		case 'Succinat':
-			return 'Die FAD-abhängige Succinat-Dehydrogenase führt die Oxidation von Succinat zu Fumarat durch. Hierbei wird eine Doppelbindung gebildey und ein Molekül FADH2 freigesetzt.';
+			return 'Die FAD-abhängige Succinat-Dehydrogenase führt die Oxidation von Succinat zu Fumarat durch. Hierbei wird eine Doppelbindung gebildet und ein Molekül FADH2 freigesetzt.';
 		case 'Fumarat':
-			return 'Die H20 abhängige Fumarat-Hydratase/Fumarase katalysiert die Ausbildung von Malat. An die doppelbindung von Fumarat bindet sich ein Wassermolekül ';
+			return 'Die H20 abhängige Fumarat-Hydratase/Fumarase katalysiert die Ausbildung von Malat. An die doppelbindung von Fumarat bindet sich ein Wassermolekül und ein Malat Molekül wird gebildet';
 		case 'Malat':
-			return 'Die NAD+ abhängige Malatdehydrogenase oxidiert die OH-Gruppe von Malat zu einer Carbonylgruppe. So bildet sich ein Oxalacetat Molekül, diese liegt dann als Substrat für Schritt 1 des Citratzyklus vor. Auch entsteht hierbei ein Molekül NADH/H+';
+			return 'Die NAD+ abhängige Malatdehydrogenase oxidiert die OH-Gruppe von Malat zu einer Carbonylgruppe. So bildet sich ein Oxalacetat Molekül, dieses liegt dann als Substrat für Schritt 1 des Citratzyklus vor. Auch entsteht hierbei ein Molekül NADH/H+';
 		case 'Oxalacetat':
-			return 'Die Citratsynthase katalysiert die Übertragung von Acetyl-CoA (C2 Verbindung) aufOxalacetat (C4 Verbindung) unter der Bildung von Citrat (C6 Verbindung). H2O wird eingeführt und das Coenzym A abgespalten. Hierbei wird die energiereiche Thioesterbindung des Acetyl-CoA durch einer Hydrolyse aufgespalten.';
+			return 'Die Citratsynthase katalysiert die Übertragung von Acetyl-CoA auf Oxalacetat unter der Bildung von Citrat . H2O wird eingeführt und das Coenzym A abgespalten. Hierbei wird die energiereiche Thioesterbindung des Acetyl-CoA durch einer Hydrolyse aufgespalten.';
 	}
 };
 

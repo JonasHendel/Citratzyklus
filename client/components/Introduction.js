@@ -9,11 +9,11 @@ function Introduction() {
 			<motion.div
 				className='textCard'
 				whileHover={{ scale: 1.05, duration: 1 }}
-        style={{fontSize: 15}}
+				style={{ fontSize: 15 }}
 			>
 				<h1>Was ist der Citratzyklus</h1>
 				<p>
-					Der Citratzyklus ist ein zyklischer Stoffwechselweg welcher
+					Der Citratzyklus ist ein zyklischer Stoffwechselweg, welcher
 					im Matrixraum der{' '}
 					<a
 						href='https://de.wikipedia.org/wiki/Mitochondrium'
@@ -22,15 +22,9 @@ function Introduction() {
 						Mitchondrien
 					</a>{' '}
 					stattfindet. Hier treffen die Abbauwege des Kohlenhydrat-,
-					Protein- und Fettstoffwechsels in From von{' '}
-					<a
-						href='https://de.wikipedia.org/wiki/Acetyl-Coenzym_A'
-						target='_blank'
-					>
-						Acetyl-CoA
-					</a>{' '}
-					zusammen. Seine Hauptaufgabe ist es, Elektronen von
-					Acetylresten zu gewinnen in dem er diese{' '}
+					Protein- und Fettstoffwechsels aufeinander. Seine
+					Hauptaufgabe ist es, Elektronen von Acetylresten zu gewinnen
+					in dem er diese{' '}
 					<a
 						href='https://de.wikipedia.org/wiki/Oxidation'
 						target='_blank'
@@ -78,7 +72,7 @@ function Introduction() {
 			<motion.div
 				className='textCard'
 				whileHover={{ scale: 1.04, duration: 1 }}
-        style={{fontSize: 15}}
+				style={{ fontSize: 15 }}
 			>
 				<h1>Regulation</h1>
 				<p>
@@ -115,8 +109,10 @@ function Introduction() {
 					</a>{' '}
 					wird der Zyklus gebremst. Die ATP-Konzentration steigt zum
 					Beispiel während des Schlafes, da man weniger Energie
-					benötigt. Durch einer hohen ADP-konzentration wird der Zitrazyklus "beschleunigt". Auch wird der Citrazyklus vom Angebot der
-					Substrate und der hemmung durch Rückkopplung reguliert (siehe Graph).
+					benötigt. Durch einer hohen ADP-konzentration wird der
+					Zitrazyklus "beschleunigt". Auch wird der Citrazyklus vom
+					Angebot der Substrate und der hemmung durch Rückkopplung
+					reguliert (siehe Graph).
 				</p>
 			</motion.div>
 			<motion.div
@@ -125,9 +121,15 @@ function Introduction() {
 			>
 				<h1>Rolle im Stoffwechsel</h1>
 				<p>
-					Acetyl-CoA ist das Abbauprodukt verschiedener
-					Nährstoffklassen. So wird zum Beispiel aus Fettsäuren
-					mithilfe der{' '}
+					{' '}
+					<a
+						href='https://de.wikipedia.org/wiki/Acetyl-Coenzym_A'
+						target='_blank'
+					>
+						Acetyl-CoA
+					</a>{' '}
+					ist das Abbauprodukt verschiedener Nährstoffklassen. So
+					werden zum Beispiel aus Fettsäuren mithilfe der{' '}
 					<a
 						href='https://de.wikipedia.org/wiki/%CE%92-Oxidation'
 						target='_blank'
@@ -175,7 +177,7 @@ function Introduction() {
 					</a>
 					.
 					<br />
-					Auch Proteine werden zu Aminosäuren wie Oxalacetat oder
+					Proteine werden zu Aminosäuren wie Oxalacetat oder
 					α-Ketoglutarat hydrolisiert. Diese{' '}
 					<a
 						href='https://de.wikipedia.org/wiki/Ketos%C3%A4uren'
@@ -184,7 +186,7 @@ function Introduction() {
 						Ketosäuren
 					</a>{' '}
 					sind häufig Zwischenprodukte des Citratzyklus und fließen
-					direkt darin ein. .
+					direkt darin ein.
 				</p>
 			</motion.div>
 		</div>
