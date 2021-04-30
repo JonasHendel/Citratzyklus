@@ -99,9 +99,7 @@ a {
 
 }
 
-.textCard h1 {
-  font-size: 5px !important;
-}
+
 @media only screen and (max-width: 500px) {
   .card {
     width: 90%;
