@@ -15,7 +15,7 @@ A german website with the objective of teaching it's visitors the Citric Acid Cy
  </p>
 
 <p align="center"> 
-As part of my biology class, we had to make a graded project about a certain topic, in any way or format we wanted. We were presented with a list off topics. We were allowed to choose one of them. However I didn't get either off the three topics I chose and ended up with one I would never have thought about choosing. A presentation about the citric acid cycle would have bored me to death. So I chose to code a website.</p>
+As part of my biology class we had to make a graded project about a certain topic, in any way or format we wanted. We were presented with a list off topics and were allowed to choose three of them, one of which we would work on, depending on how many others chose the same. As it had to happen, I didn't get either off the three topics I chose and ended up with one I would never have thought about choosing, the citric acid circle. A presentation about the citric acid cycle would have bored me to death. So I chose to code a website.</p>
 
 <br/>
 <h3 align="center" border-bottom="none"> Grade Recieved:  A / 14 Notenpunkte</h3>
@@ -33,7 +33,7 @@ As part of my biology class, we had to make a graded project about a certain top
 
 ### Challenges
 - Fairly new to React and Javascript, 1.5 months of experience in React, JS and general web development, prior to the project
-- The interactive graph of the citric acid cycle, was the most challenging part of the project, since I initially had no idea, how to solve this challenge.
+- The interactive graph of the citric acid cycle was the most challenging part of the project, since I initially had no idea how to go about it.
 
 ### Critics
 Four months, 2 big fullstack projects and lot of learning later, there are some things I would have done different.  
