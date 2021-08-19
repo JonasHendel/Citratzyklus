@@ -7,6 +7,10 @@
 <h3 align="center">
 A german website with the objective of teaching it's visitors the Citric Acid Cycle.</h3>
 
+<p align="center">
+<img src="https://user-images.githubusercontent.com/70843626/130143961-87fdcf45-dc23-43d3-92a6-5c760a62c9de.png" width=500/>
+ </p>
+
 <p align="center"> 
 As part of my biology class, we had to make a graded project about a certain topic, in any way or format we wanted. We were presented with a list off topics. We were allowed to choose one of them. However I didn't get either off the three topics I chose and ended up with one I would never have thought about choosing. A presentation about the citric acid cycle would have bored me to death. So I chose to code a website.</p>
 
