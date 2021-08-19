@@ -35,7 +35,7 @@ As part of my biology class we had to make a graded project about a certain topi
 * I was fairly new to React and Javascript
   * 1.5 months of experience in React, JS and general web development, prior to the project
 * The interactive graph of the citric acid cycle was the most challenging part of the project, since I initially had no idea how to go about it.
-  * I had to teach myself about SVG and React
+  * I had to teach myself about SVG
   * Learn how to use Adobe Illustrator
 
 
