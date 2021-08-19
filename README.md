@@ -5,7 +5,7 @@
 
 
 <h3 align="center">
-A german website with the objective of teaching it's visitors the Citric Acid Cycle.</h3>
+A website with the objective of teaching it's visitors the Citric Acid Cycle in a fun and easy way. <br/>A simple website, for a complex topic.</h3>
 
 <p align="center">
 <a align="center" href="https://citratzyklus.vercel.app">Visit Website</a>
