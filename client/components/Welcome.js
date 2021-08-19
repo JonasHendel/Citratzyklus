@@ -12,10 +12,10 @@ function Welcome() {
 				<div className='left'>
 					<h1>Citratzyklus</h1>
 					<h3>Jonas Hendel</h3>
-					<a href='https://docs.google.com/document/d/1IcOHua0btCcIxDC4L0R1cazdSkjPYELP_toNITxqBjY/edit' target='_blank'>
+					<a href='https://github.com/JonasHendel/Citratzyklus' target='_blank'>
           <motion.div className="projektBeschreibung" >
             <ArrowRight size={15}/>
-						<a style={{ marginLeft: 10 }}>Projektbeschreibung </a>
+						<a style={{ marginLeft: 10 }}>GitHub </a>
           </motion.div>
 					</a>
 				</div>
