@@ -25,11 +25,11 @@ As part of my biology class, we had to make a graded project about a certain top
 
 ### Features
 - Interactive representation of the Citric Acid Cycle
+- Hierarchy that helps understand the concept of the Citric Acid Cycle
 - Fully responsive
 - Simplistic design
 - Stimulating colours
 - Engaging animations
-- Hierarchy that helps understanding the concept of the Citric Acid Cycle
 
 ### Challenges
 - Fairly new to React and Javascript, 1.5 months of experience in React, JS and general web development, prior to the project
