@@ -15,7 +15,7 @@ A german website with the objective of teaching it's visitors the Citric Acid Cy
  </p>
 
 <p align="center"> 
-As part of my biology class we had to make a graded project about a certain topic, in any way or format we wanted. We were presented with a list off topics and were allowed to choose three of them, one of which we would work on, depending on how many others chose the same. As it had to happen, I didn't get either off the three topics I chose and ended up with one I would never have thought about choosing, the citric acid circle. A presentation about the citric acid cycle would have bored me to death. So I chose to code a website.</p>
+As part of my biology class we had to make a graded project about a certain topic, in any way or format we wanted. We were presented with a list off topics and were allowed to choose three of them, one of which we would work on, depending on how many others chose the same. As it had to happen, I didn't get either one off the three topics I chose and ended up with one I would never have thought about choosing, the citric acid circle. A presentation about the citric acid cycle would have bored me to death. So I chose to code a website.</p>
 
 <br/>
 <h3 align="center" border-bottom="none"> Grade Recieved:  A / 14 Notenpunkte</h3>
