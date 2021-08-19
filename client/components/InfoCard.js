@@ -13,6 +13,7 @@ const InfoCard = ({ title }) => {
 			scale: [1, 1.03, 1],
 		});
 	}, [title]);
+
 	return (
 		<>
 			<motion.div className='card' animate={controls} transition={{ duration: 0.3 }}>
