@@ -28,8 +28,6 @@ As part of my biology class we had to make a graded project about a certain topi
 * Hierarchy that helps understand the concept of the Citric Acid Cycle
 * Fully responsive
 * Simplistic design
-* Stimulating colours
-* Engaging animations
 
 ### Challenges
 * I was fairly new to React and Javascript
